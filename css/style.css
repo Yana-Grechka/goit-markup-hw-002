@@ -22,6 +22,8 @@ body {
 
 .link {
     text-decoration: none;
+}
+.contacts {
     font-style: normal;
 }
 
@@ -127,7 +129,9 @@ color: var(--ocean);
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
-
+.list-item {
+    background-color: var(--white)
+}
 .worker {
     color: var(--navy-blue);
     font-size: 20px;
