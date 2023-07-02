@@ -25,10 +25,6 @@ body {
     font-style: normal;
 }
 
-ul,
-ol {
-    list-style-type: none;
-}
 
 .logocolor {
     color: var(--navy-blue);
@@ -46,17 +42,20 @@ ol {
         
 }
 
-.nav-link {
-    color: var(--navy-blue);
-    font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+
+.list {
+    list-style-type: none;
 }
 .current {
     color: var(--iris);
 }
-
+.link-decor {
+        color: var(--navy-blue);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+}
 .link-decor:hover,
 .link-decor:active,
 .link-decor:focus {
