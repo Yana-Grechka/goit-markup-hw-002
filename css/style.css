@@ -46,9 +46,7 @@ body {
 .list {
     list-style: none;
 }
-.current {
-    color: var(--iris);
-}
+
 .link-decor {
         color: var(--navy-blue);
             font-size: 16px;
@@ -57,9 +55,8 @@ body {
             letter-spacing: 0.02em;
 }
 .link-decor:hover,
-.link-decor:active,
 .link-decor:focus {
-color: var(--iris);
+color: var(--ocean);
 }
 .contacts-nav a {
     color: var(--slate);
