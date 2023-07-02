@@ -20,7 +20,7 @@ body {
     background-color: var(--white)
 }
 
-.decor-none {
+.link {
     text-decoration: none;
     font-style: normal;
 }
@@ -57,9 +57,9 @@ ol {
     color: var(--iris);
 }
 
-.link:hover,
-.link:active,
-.link:focus {
+.link-decor:hover,
+.link-decor:active,
+.link-decor:focus {
 color: var(--iris);
 }
 .contacts-nav a {
@@ -86,11 +86,15 @@ color: var(--iris);
     font-size: 16px;
     color: var(--white);
     background-color: var(--iris);
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: var(--ocean);
 }
 .hang {
     color: var(--navy-blue);
