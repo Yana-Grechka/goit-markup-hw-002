@@ -160,7 +160,6 @@ font-size: 16px;
 .project-btn {
     color: var(--iris);
     background-color: var(--cloud);
-    border: 1px solid var(--cornflower);
     font-size: 16px;
     font-family: Roboto;
         font-style: normal;
